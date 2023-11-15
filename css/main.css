@@ -1,0 +1,121 @@
+:root {
+    --green-primary: hsl(171, 66%, 44%);
+    --violet-primary: hsl(233, 100%, 69%);
+    --gray-neutral: hsl(210, 10%, 33%);
+    --grey-light-neutral: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.hero_container {
+    width: 100%;
+    height: auto;
+}
+
+.logo-container {
+    width: 100%;
+    height: auto;
+    padding: 100px 0 50px;
+
+    background-image: url('../images/bg-header-mobile.png');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-figure {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+.logo-figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.history-container {
+    width: 100%;
+    height: auto;
+    padding: 0 30px 60px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.history-container p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--gray-neutral);
+    line-height: 30px;
+}
+
+.history-container p:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey-light-neutral);
+    line-height: 20px;
+}
+
+.download-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 100px;
+}
+
+.button {
+    width: 311px;
+    padding: 15px;
+
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 56px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+}
+
+.primary-button {
+    background-color: var(--green-primary);
+}
+
+.primary-button:hover {
+    transition: ease-in-out .3s;
+    background-color: rgba(38, 186, 164, 0.8);
+
+}
+
+.secondary-button {
+    background-color: var(--violet-primary);
+}
+
+.secondary-button:hover {
+    transition: ease-in-out .3s;
+    background-color: rgba(97, 115, 255, 0.8);
+}
