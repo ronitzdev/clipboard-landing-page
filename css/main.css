@@ -84,7 +84,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 
-    padding-bottom: 100px;
+    padding-bottom: 160px;
 }
 
 .button {
@@ -118,4 +118,96 @@ body {
 .secondary-button:hover {
     transition: ease-in-out .3s;
     background-color: rgba(97, 115, 255, 0.8);
+}
+
+/* section 2 */
+.snippets-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.snippet-track-container {
+    padding: 0 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.snippet-track-container p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--gray-neutral);
+    line-height: 30px;
+}
+
+.snippet-track-container p:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey-light-neutral);
+    line-height: 20px;
+}
+
+.snippet-data-container figure {
+    width: 312px;
+    height: 238px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.snippet-data-container figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.data-info-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px 160px;
+}
+
+.data-info-container div:nth-child(1) p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gray-neutral);
+    line-height: 30px;
+}
+
+.data-info-container div:nth-child(1) p:nth-child(2) {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--grey-light-neutral);
+    line-height: 20px;
+}
+
+.data-info-container div:nth-child(2) p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gray-neutral);
+    line-height: 30px;
+}
+
+.data-info-container div:nth-child(2) p:nth-child(2) {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--grey-light-neutral);
+    line-height: 20px;
+}
+
+.data-info-container div:nth-child(3) p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gray-neutral);
+    line-height: 30px;
+}
+
+.data-info-container div:nth-child(3) p:nth-child(2) {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--grey-light-neutral);
+    line-height: 20px;
 }
