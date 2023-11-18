@@ -266,3 +266,54 @@ body {
     color: var(--grey-light-neutral);
     line-height: 30px;
 }
+
+.advantages-container {
+    width: 100%;
+    height: auto;
+    padding: 30px 40px 40px;
+    text-align: center;
+}
+
+.advantage-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.advantage-info .logo {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+.advantage-info .list {
+    background-image: url('../images/icon-blacklist.svg');
+}
+
+.advantage-info .plain {
+    background-image: url('../images/icon-text.svg');
+}
+
+.advantage-info .sneak {
+    background-image: url('../images/icon-preview.svg');
+    width: 49px;
+}
+
+
+.advantage-info .advantage-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--gray-neutral);
+    line-height: 30px;
+}
+
+.advantage-info .advantage-p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey-light-neutral);
+    line-height: 20px;
+}
