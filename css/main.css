@@ -473,6 +473,8 @@ body {
     .data-info-container {
         text-align: left;
         gap: 10px;
+        width: 60%;
+        min-width: 500px;
     }
 
     .data-info-container div:nth-child(1) p:nth-child(1) {
