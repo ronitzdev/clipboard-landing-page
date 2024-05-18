@@ -60,4 +60,4 @@ I will continue to strive to make a much cleaner code, with good practices and m
 ## Author
 
 - Website - [GitHub](https://github.com/ronitzdev)
-- Frontend Mentor - [@ronitzdev](https://www.frontendmentor.io/profile/RoniGerman)
+- Frontend Mentor - [@ronitzdev](https://github.com/ronitzdev)
